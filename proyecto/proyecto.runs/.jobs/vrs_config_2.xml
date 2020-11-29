@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ADD8BIT_ADD1_0_11_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_12_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_13_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_13_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_9_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_8_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_0_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_14_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_14_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ADD8BIT_ADD1_0_10_synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/ADD8BIT_ADD1_0_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/cristian/proyecto/proyecto.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ADD8BIT_ADD1_0_11_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_12_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_13_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_9_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_8_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_0_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_14_synth_1"/>
+		<Parent Id="ADD8BIT_ADD1_0_10_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

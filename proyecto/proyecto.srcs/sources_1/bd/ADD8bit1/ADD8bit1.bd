@@ -1,0 +1,513 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xED459681ED459681",
+      "device": "xc7a35tcpg236-1",
+      "name": "ADD8bit1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ADD1_0": "",
+      "ADD1_1": "",
+      "ADD1_2": "",
+      "ADD1_3": "",
+      "ADD1_4": "",
+      "ADD1_5": "",
+      "ADD1_6": "",
+      "ADD1_7": ""
+    },
+    "ports": {
+      "ASW0": {
+        "direction": "I"
+      },
+      "ASW1": {
+        "direction": "I"
+      },
+      "ASW2": {
+        "direction": "I"
+      },
+      "ASW3": {
+        "direction": "I"
+      },
+      "ASW4": {
+        "direction": "I"
+      },
+      "ASW5": {
+        "direction": "I"
+      },
+      "ASW6": {
+        "direction": "I"
+      },
+      "ASW7": {
+        "direction": "I"
+      },
+      "BSW8": {
+        "direction": "I"
+      },
+      "BSW9": {
+        "direction": "I"
+      },
+      "BSW10": {
+        "direction": "I"
+      },
+      "BSW11": {
+        "direction": "I"
+      },
+      "BSW12": {
+        "direction": "I"
+      },
+      "BSW13": {
+        "direction": "I"
+      },
+      "BSW14": {
+        "direction": "I"
+      },
+      "BSW15": {
+        "direction": "I"
+      },
+      "LED0": {
+        "direction": "O"
+      },
+      "LED1": {
+        "direction": "O"
+      },
+      "LED2": {
+        "direction": "O"
+      },
+      "LED3": {
+        "direction": "O"
+      },
+      "LED4": {
+        "direction": "O"
+      },
+      "LED5": {
+        "direction": "O"
+      },
+      "LED6": {
+        "direction": "O"
+      },
+      "LED7": {
+        "direction": "O"
+      },
+      "COUT15": {
+        "direction": "O"
+      },
+      "BTNO": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "ADD1_0": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_1": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_2": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_3": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_4": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_4",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_5": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_5",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_6": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_6",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      },
+      "ADD1_7": {
+        "vlnv": "xilinx.com:module_ref:ADD1:1.0",
+        "xci_name": "ADD8bit1_ADD1_0_7",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ADD1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "CIN": {
+            "direction": "I"
+          },
+          "SUMA": {
+            "direction": "O"
+          },
+          "COUNT": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ASW7_1": {
+        "ports": [
+          "ASW7",
+          "ADD1_0/A"
+        ]
+      },
+      "ASW6_1": {
+        "ports": [
+          "ASW6",
+          "ADD1_1/A"
+        ]
+      },
+      "ASW5_1": {
+        "ports": [
+          "ASW5",
+          "ADD1_2/A"
+        ]
+      },
+      "ASW4_1": {
+        "ports": [
+          "ASW4",
+          "ADD1_3/A"
+        ]
+      },
+      "ASW3_1": {
+        "ports": [
+          "ASW3",
+          "ADD1_4/A"
+        ]
+      },
+      "ASW2_1": {
+        "ports": [
+          "ASW2",
+          "ADD1_5/A"
+        ]
+      },
+      "ASW1_1": {
+        "ports": [
+          "ASW1",
+          "ADD1_6/A"
+        ]
+      },
+      "ASW0_1": {
+        "ports": [
+          "ASW0",
+          "ADD1_7/A"
+        ]
+      },
+      "BSW15_1": {
+        "ports": [
+          "BSW15",
+          "ADD1_0/B"
+        ]
+      },
+      "BSW14_1": {
+        "ports": [
+          "BSW14",
+          "ADD1_1/B"
+        ]
+      },
+      "ADD1_0_COUNT": {
+        "ports": [
+          "ADD1_0/COUNT",
+          "ADD1_1/CIN"
+        ]
+      },
+      "BSW13_1": {
+        "ports": [
+          "BSW13",
+          "ADD1_2/B"
+        ]
+      },
+      "BSW12_1": {
+        "ports": [
+          "BSW12",
+          "ADD1_3/B"
+        ]
+      },
+      "BSW11_1": {
+        "ports": [
+          "BSW11",
+          "ADD1_4/B"
+        ]
+      },
+      "BSW10_1": {
+        "ports": [
+          "BSW10",
+          "ADD1_5/B"
+        ]
+      },
+      "BSW9_1": {
+        "ports": [
+          "BSW9",
+          "ADD1_6/B"
+        ]
+      },
+      "BSW8_1": {
+        "ports": [
+          "BSW8",
+          "ADD1_7/B"
+        ]
+      },
+      "ADD1_7_SUMA": {
+        "ports": [
+          "ADD1_7/SUMA",
+          "LED0"
+        ]
+      },
+      "ADD1_6_COUNT": {
+        "ports": [
+          "ADD1_6/COUNT",
+          "ADD1_7/CIN"
+        ]
+      },
+      "ADD1_5_COUNT": {
+        "ports": [
+          "ADD1_5/COUNT",
+          "ADD1_6/CIN"
+        ]
+      },
+      "ADD1_1_COUNT": {
+        "ports": [
+          "ADD1_1/COUNT",
+          "ADD1_2/CIN"
+        ]
+      },
+      "ADD1_2_COUNT": {
+        "ports": [
+          "ADD1_2/COUNT",
+          "ADD1_3/CIN"
+        ]
+      },
+      "ADD1_3_COUNT": {
+        "ports": [
+          "ADD1_3/COUNT",
+          "ADD1_4/CIN"
+        ]
+      },
+      "ADD1_4_COUNT": {
+        "ports": [
+          "ADD1_4/COUNT",
+          "ADD1_5/CIN"
+        ]
+      },
+      "ADD1_6_SUMA": {
+        "ports": [
+          "ADD1_6/SUMA",
+          "LED1"
+        ]
+      },
+      "ADD1_5_SUMA": {
+        "ports": [
+          "ADD1_5/SUMA",
+          "LED2"
+        ]
+      },
+      "ADD1_4_SUMA": {
+        "ports": [
+          "ADD1_4/SUMA",
+          "LED3"
+        ]
+      },
+      "ADD1_3_SUMA": {
+        "ports": [
+          "ADD1_3/SUMA",
+          "LED4"
+        ]
+      },
+      "ADD1_2_SUMA": {
+        "ports": [
+          "ADD1_2/SUMA",
+          "LED5"
+        ]
+      },
+      "ADD1_7_COUNT": {
+        "ports": [
+          "ADD1_7/COUNT",
+          "COUT15"
+        ]
+      },
+      "ADD1_1_SUMA": {
+        "ports": [
+          "ADD1_1/SUMA",
+          "LED6"
+        ]
+      },
+      "ADD1_0_SUMA": {
+        "ports": [
+          "ADD1_0/SUMA",
+          "LED7"
+        ]
+      },
+      "BTNO_1": {
+        "ports": [
+          "BTNO",
+          "ADD1_0/CIN"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Nov 27 20:16:18 2020" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="ADD8bit1" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="ASW0" SIGIS="undef" SIGNAME="External_Ports_ASW0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_7" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW1" SIGIS="undef" SIGNAME="External_Ports_ASW1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_6" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW2" SIGIS="undef" SIGNAME="External_Ports_ASW2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_5" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW3" SIGIS="undef" SIGNAME="External_Ports_ASW3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_4" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW4" SIGIS="undef" SIGNAME="External_Ports_ASW4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_3" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW5" SIGIS="undef" SIGNAME="External_Ports_ASW5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_2" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW6" SIGIS="undef" SIGNAME="External_Ports_ASW6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_1" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ASW7" SIGIS="undef" SIGNAME="External_Ports_ASW7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_0" PORT="A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW8" SIGIS="undef" SIGNAME="External_Ports_BSW8">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_7" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW9" SIGIS="undef" SIGNAME="External_Ports_BSW9">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_6" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW10" SIGIS="undef" SIGNAME="External_Ports_BSW10">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_5" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW11" SIGIS="undef" SIGNAME="External_Ports_BSW11">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_4" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW12" SIGIS="undef" SIGNAME="External_Ports_BSW12">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_3" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW13" SIGIS="undef" SIGNAME="External_Ports_BSW13">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_2" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW14" SIGIS="undef" SIGNAME="External_Ports_BSW14">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_1" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BSW15" SIGIS="undef" SIGNAME="External_Ports_BSW15">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_0" PORT="B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED0" SIGIS="undef" SIGNAME="ADD1_7_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_7" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED1" SIGIS="undef" SIGNAME="ADD1_6_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_6" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED2" SIGIS="undef" SIGNAME="ADD1_5_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_5" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED3" SIGIS="undef" SIGNAME="ADD1_4_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_4" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED4" SIGIS="undef" SIGNAME="ADD1_3_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_3" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED5" SIGIS="undef" SIGNAME="ADD1_2_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_2" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED6" SIGIS="undef" SIGNAME="ADD1_1_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_1" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LED7" SIGIS="undef" SIGNAME="ADD1_0_SUMA">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_0" PORT="SUMA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="COUT15" SIGIS="undef" SIGNAME="ADD1_7_COUNT">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_7" PORT="COUNT"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BTNO" SIGIS="undef" SIGNAME="External_Ports_BTNO">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ADD1_0" PORT="CIN"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_0" HWVERSION="1.0" INSTANCE="ADD1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW15">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW15"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="External_Ports_BTNO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BTNO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_0_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_0_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_1" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_1" HWVERSION="1.0" INSTANCE="ADD1_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW14">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW14"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_0_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_0" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_1_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_1_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_2" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_2" HWVERSION="1.0" INSTANCE="ADD1_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW13">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW13"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_1_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_1" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_2_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_2_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_3" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_3" HWVERSION="1.0" INSTANCE="ADD1_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW12">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW12"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_2_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_2" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_3_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_3_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_4" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_4" HWVERSION="1.0" INSTANCE="ADD1_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_3_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_3" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_4_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_4_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_5" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_5" HWVERSION="1.0" INSTANCE="ADD1_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_4_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_4" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_5_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_5_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_6" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_6" HWVERSION="1.0" INSTANCE="ADD1_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_5_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_5" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_6_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_6_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_7" PORT="CIN"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ADD1_7" HWVERSION="1.0" INSTANCE="ADD1_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ADD1" VLNV="xilinx.com:module_ref:ADD1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="ADD8bit1_ADD1_0_7"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_ASW0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ASW0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_BSW8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BSW8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CIN" SIGIS="undef" SIGNAME="ADD1_6_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ADD1_6" PORT="COUNT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="SUMA" SIGIS="undef" SIGNAME="ADD1_7_SUMA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LED0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="COUNT" SIGIS="undef" SIGNAME="ADD1_7_COUNT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="COUT15"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
