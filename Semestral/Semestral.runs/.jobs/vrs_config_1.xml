@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="CONTADOR_BCD_DEMUX_0_0_synth_1" LaunchDir="C:/Users/cristian/Semestral/Semestral.runs/CONTADOR_BCD_DEMUX_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="CONTADOR_BCD_DIV1HZ_0_0_synth_1" LaunchDir="C:/Users/cristian/Semestral/Semestral.runs/CONTADOR_BCD_DIV1HZ_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="CONTADOR_BCD_DEC1_BINARIO_SSD_0_0_synth_1" LaunchDir="C:/Users/cristian/Semestral/Semestral.runs/CONTADOR_BCD_DEC1_BINARIO_SSD_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="CONTADOR_BCD_COUNTER_E_0_0_synth_1" LaunchDir="C:/Users/cristian/Semestral/Semestral.runs/CONTADOR_BCD_COUNTER_E_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/cristian/Semestral/Semestral.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="CONTADOR_BCD_DEMUX_0_0_synth_1"/>
+		<Parent Id="CONTADOR_BCD_DIV1HZ_0_0_synth_1"/>
+		<Parent Id="CONTADOR_BCD_DEC1_BINARIO_SSD_0_0_synth_1"/>
+		<Parent Id="CONTADOR_BCD_COUNTER_E_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

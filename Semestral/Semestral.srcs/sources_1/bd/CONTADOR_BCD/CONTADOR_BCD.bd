@@ -1,0 +1,157 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8EE2EE988EE2EE98",
+      "device": "xc7a35tcpg236-1",
+      "name": "CONTADOR_BCD",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "COUNTER_E_0": "",
+      "DIV1HZ_0": "",
+      "DEC1_BINARIO_SSD_0": "",
+      "DEMUX_0": ""
+    },
+    "ports": {
+      "CLK_FPGA": {
+        "direction": "I"
+      },
+      "SW_SEL": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "SSD": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "COUNTER_E_0": {
+        "vlnv": "xilinx.com:module_ref:COUNTER_E:1.0",
+        "xci_name": "CONTADOR_BCD_COUNTER_E_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "COUNTER_E",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK_E": {
+            "direction": "I"
+          },
+          "SALIDA": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "DIV1HZ_0": {
+        "vlnv": "xilinx.com:module_ref:DIV1HZ:1.0",
+        "xci_name": "CONTADOR_BCD_DIV1HZ_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DIV1HZ",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK_FPGA": {
+            "direction": "I"
+          },
+          "CLK_DIV": {
+            "direction": "O"
+          }
+        }
+      },
+      "DEC1_BINARIO_SSD_0": {
+        "vlnv": "xilinx.com:module_ref:DEC1_BINARIO_SSD:1.0",
+        "xci_name": "CONTADOR_BCD_DEC1_BINARIO_SSD_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DEC1_BINARIO_SSD",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ENTRADAS": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "CTRL_SSD": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "SSD": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "DEMUX_0": {
+        "vlnv": "xilinx.com:module_ref:DEMUX:1.0",
+        "xci_name": "CONTADOR_BCD_DEMUX_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "DEMUX",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "SW_SEL": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "MUX_OUT": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "DIV1HZ_0_CLK_DIV": {
+        "ports": [
+          "DIV1HZ_0/CLK_DIV",
+          "COUNTER_E_0/CLK_E"
+        ]
+      },
+      "COUNTER_E_0_SALIDA": {
+        "ports": [
+          "COUNTER_E_0/SALIDA",
+          "DEC1_BINARIO_SSD_0/ENTRADAS"
+        ]
+      },
+      "DEMUX_0_MUX_OUT": {
+        "ports": [
+          "DEMUX_0/MUX_OUT",
+          "DEC1_BINARIO_SSD_0/CTRL_SSD"
+        ]
+      },
+      "CLK_FPGA_1": {
+        "ports": [
+          "CLK_FPGA",
+          "DIV1HZ_0/CLK_FPGA"
+        ]
+      },
+      "SW_SEL_1": {
+        "ports": [
+          "SW_SEL",
+          "DEMUX_0/SW_SEL"
+        ]
+      },
+      "DEC1_BINARIO_SSD_0_SSD": {
+        "ports": [
+          "DEC1_BINARIO_SSD_0/SSD",
+          "SSD"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.967597",
+   "Default View_TopLeft":"-385,-130",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace inst COUNTER_E_0 -pg 1 -lvl 2 -x 170 -y 110 -defaultsOSRD
+preplace inst DIV1HZ_0 -pg 1 -lvl 1 -x -100 -y 110 -defaultsOSRD
+preplace inst DEC1_BINARIO_SSD_0 -pg 1 -lvl 3 -x 460 -y 110 -defaultsOSRD
+preplace inst DEMUX_0 -pg 1 -lvl 2 -x 170 -y 250 -defaultsOSRD
+preplace netloc DIV1HZ_0_CLK_DIV 1 1 1 N 110
+preplace netloc COUNTER_E_0_SALIDA 1 2 1 310 100n
+preplace netloc DEMUX_0_MUX_OUT 1 2 1 310 120n
+levelinfo -pg 1 -250 -100 170 460 610
+pagesize -pg 1 -db -bbox -sgen -250 -60 610 370
+"
+}
+
